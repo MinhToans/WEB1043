@@ -10,9 +10,9 @@ let ten =hoTenArr[hoTenArr.length - 1];
 
 //thay đổi tên đệm 
 if (gioiTinh.toLowerCase() === "Nam") {
-    tenDem = " ";
+    tenDem = " Văn ";
 } else if (gioiTinh.toLowerCase() === "Nữ") {
-    tenDem = " ";
+    tenDem = " Vẽ ";
 }
 //in ra kết quả
 document.write(`Họ: ${ho}`);
