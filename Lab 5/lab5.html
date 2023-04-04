@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>TODOLIST</h1>
+    <form id="add-task-form">
+      <label for="task-name">Task name:</label>
+      <input type="text" id="task-name" name="task-name" required minlength="6">
+      <br>
+      <label for="task-description">Task description:</label>
+      <textarea id="task-description" name="task-description" required minlength="21"></textarea>
+      <br>
+      <button type="submit">Add task</button>
+    </form>
+    <ul id="task-list"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
