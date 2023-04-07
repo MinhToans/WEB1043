@@ -1,0 +1,23 @@
+#video-container {
+    position: relative;
+  }
+  
+  #myVideo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #controls button, #controls input {
+    margin: 0 5px;
+  }
+  
